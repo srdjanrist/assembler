@@ -1,0 +1,14 @@
+#Tabela simbola
+ord         name  section   offset  length  bind  def
+  0          UND        0        0       0     L    1
+  1    .text.t10        1        0      16     L    1
+  2         main        1        0             G    1
+
+
+#RELOCATIONS
+
+
+#.text.t10
+C1 04 00 01 D2 0C 00 01 
+25 00 20 00 CE 03 C7 00 
+

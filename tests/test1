@@ -1,0 +1,11 @@
+.public main
+
+.section .text.t10
+main:
+add r0 #1
+subs r1 #1
+cmpne r0 r1
+shl r0 r15 #3
+
+
+.end

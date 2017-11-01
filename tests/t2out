@@ -1,0 +1,39 @@
+#Tabela simbola
+ord         name  section   offset  length  bind  def
+  0          UND        0        0       0     L    1
+  1    .text.t20        1        0      52     L    1
+  2    .data.t20        2        0      16     L    1
+  3     .bss.t20        3        0     200     L    1
+  4            c        0        0             G    0
+  5         main        1        0             G    1
+  6         loop        1       40             L    1
+  7            a        0        0             G    0
+  8            b        0        0             G    0
+  9        array        3        0             L    1
+
+
+#RELOCATIONS
+
+#.rel.text.t20
+offset      type     bytes   value
+  6     R_386_32   REL_HW1       7
+ 10     R_386_32   REL_HW0       7
+ 14     R_386_32   REL_HW1       8
+ 18     R_386_32   REL_HW0       8
+ 26     R_386_32   REL_HW1       9
+ 30     R_386_32   REL_HW0       9
+
+
+#.text.t20
+C0 A0 00 00 CF 00 00 00 
+CF 08 00 00 CF 10 00 00 
+CF 18 00 00 C5 00 20 00 
+CF 00 00 00 CF 08 00 00 
+C2 08 20 00 C1 0C 00 C8 
+CA 28 10 00 D2 0C 00 01 
+2C 87 FF F4 
+
+#.data.t20
+54 45 53 54 FF EE BB AA 
+00 00 08 00 F0 AA 00 00 
+

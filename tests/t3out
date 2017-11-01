@@ -1,0 +1,24 @@
+#Tabela simbola
+ord         name  section   offset  length  bind  def
+  0          UND        0        0       0     L    1
+  1    .text.t30        1        0      40     L    1
+  2     .bss.t30        2        0     120     L    1
+  3         loop        1       24             L    1
+  4            a        2        0             L    1
+
+
+#RELOCATIONS
+
+#.rel.text.t30
+offset      type     bytes   value
+ 18     R_386_32   REL_HW1       4
+ 22     R_386_32   REL_HW0       4
+
+
+#.text.t30
+C2 08 20 00 C1 0C 10 00 
+C2 10 40 00 C1 14 00 1E 
+CF 30 00 00 CF 38 00 00 
+CD 41 80 00 CA 19 00 00 
+D1 1C 00 04 2C 87 FF F0 
+
